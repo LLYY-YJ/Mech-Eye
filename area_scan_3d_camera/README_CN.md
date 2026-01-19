@@ -6,15 +6,15 @@
 
 ## 示例列表
 
-示例分为以下几类：**基础**、**高级**和**工具**。
+示例分为以下几类：**basic**、**advanced**和**util**。
 
-*   **基础** 示例：连接相机并采集数据。
-*   **高级** 示例：以更复杂的方式采集数据并设置型号特定的参数。
-*   **工具** 示例：获取相机信息和设置通用参数。
+*   **basic** 示例：连接相机并采集数据。
+*   **advanced** 示例：以更复杂的方式采集数据并设置型号特定的参数。
+*   **util** 示例：获取相机信息和设置通用参数。
 
 标记为 `(OpenCV)` 的示例需要安装OpenCV。
 
-*   **基础**
+*   **basic**
     *   [connect_to_camera](https://github.com/MechMindRobotics/mecheye_python_samples/tree/master/area_scan_3d_camera/basic/connect_to_camera.py)
         连接到相机。
     *   [connect_and_capture_images](https://github.com/MechMindRobotics/mecheye_python_samples/tree/master/area_scan_3d_camera/basic/connect_and_capture_images.py)
@@ -29,7 +29,7 @@
         设置多个曝光时间，然后获取并保存无纹理和有纹理的点云。
     *   [capture_point_cloud_with_normals](https://github.com/MechMindRobotics/mecheye_python_samples/tree/master/area_scan_3d_camera/basic/capture_point_cloud_with_normals.py)
         计算法线并保存带有法线的无纹理和有纹理点云。
-*   **高级**
+*   **advanced**
     *   [convert_depth_map_to_point_cloud](https://github.com/MechMindRobotics/mecheye_python_samples/tree/master/area_scan_3d_camera/advanced/convert_depth_map_to_point_cloud.py)
         从深度图生成点云并保存点云。
     *   [multiple_cameras_capture_sequentially](https://github.com/MechMindRobotics/mecheye_python_samples/tree/master/area_scan_3d_camera/advanced/multiple_cameras_capture_sequentially.py) `(OpenCV)`
@@ -53,7 +53,7 @@
     *   [capture_stereo_2d_images](https://github.com/MechMindRobotics/mecheye_python_samples/tree/master/area_scan_3d_camera/advanced/capture_stereo_2d_images.py) `(OpenCV)`
         获取并保存两个2D相机的2D图像。
         > 注意：此示例仅适用于以下型号：Deep、Laser L Enhanced、PRO XS、LSR L、LSR S和DEEP。
-*   **工具**
+*   **util**
     *   [get_camera_intrinsics](https://github.com/MechMindRobotics/mecheye_python_samples/tree/master/area_scan_3d_camera/util/get_camera_intrinsics.py)
         获取并打印相机内参。
     *   [print_camera_info](https://github.com/MechMindRobotics/mecheye_python_samples/tree/master/area_scan_3d_camera/util/print_camera_info.py)
